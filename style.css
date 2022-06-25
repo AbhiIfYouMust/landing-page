@@ -3,6 +3,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
 }
 
 img {
@@ -38,7 +40,7 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 80px;
-    padding: 10px 145px 60px 145px; 
+    padding: 10px 20px 60px 20px; 
     background-color: #1A4D2E;
 }
 
@@ -52,6 +54,7 @@ ul {
     border-radius: 10px;
     border: 2px solid green;
     background-color: #76BA99;
+    color:#EDDFB3;
 
 }
 
@@ -61,7 +64,6 @@ ul {
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
-
 }
 
 .container {
