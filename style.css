@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 img {
@@ -11,14 +12,16 @@ img {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #EDDFB3;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 145px 60px 145px; 
+    padding: 10px 145px 60px 145px; 
+    background-color: #1A4D2E;
+    color: #EDDFB3;
 }
 
 ul {
@@ -26,20 +29,30 @@ ul {
     list-style: none; 
     margin: 0;
     padding: 0;
-    gap: 8px;
-}
-
-.section-zero {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+    gap: 15px;
 }
 
 .section-one {
+    color: #EDDFB3;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 80px;
+    padding: 10px 145px 60px 145px; 
+    background-color: #1A4D2E;
+}
+
+.section-one h1 {
+    font-weight: bolder;
+}
+
+.section-one button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: #76BA99;
+
 }
 
 .section-two {
@@ -54,6 +67,7 @@ ul {
 .container {
     display: flex;
     flex-direction: row;
+    gap: 50px;
 }
 
 .container .card-text {
@@ -64,27 +78,46 @@ ul {
 .container .card-text .card {
     height: 200px;
     width: 200px;
-    border: 2px solid black;
+    border: 2px solid green;
+    border-radius: 2%;
+    
 }
 
 .quote-block {
     align-self: center;
-    margin: 0px 145px 60px 145px; 
+    padding: 0px 145px 60px 145px; 
     font-size: 60px;
+    background-color: #ADCF9F;
 }
 
 .section-three {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border: 1px solid black;
-    margin: 0px 145px 60px 145px; 
+    border: 1px solid greenyellow;
+    border-radius: 15px 50px 30px 5px; 
+    margin: 80px 145px 60px 145px; 
 }
 
 .section-three button {
     align-self: center;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    background-color: white;
+    width: 120px;
+    padding: 10px;
 }
 
 .footer {
-    align-self: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #1A4D2E;
+    color: #EDDFB3;
+    align-items: center;
+}
+
+.Logo {
+    font-size: 22px;
+    font-weight: 900;
 }
